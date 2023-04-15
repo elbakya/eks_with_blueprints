@@ -22,7 +22,7 @@ locals {
   #---------------------------------------------------------------
   # ARGOCD WORKLOAD APPLICATION
   #---------------------------------------------------------------
-  workload_repo = "https://github.com/elbakya/newRepoTest.git"
+  workload_repo = "https://github.com/elbakya/github-default-repo.git"
 
   workload_application = {
     path               = "envs/dev"

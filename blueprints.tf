@@ -10,8 +10,8 @@ module "eks_blueprints" {
     role = {
         capacity_type = "ON_DEMAND"
         node_group_name = "general"
-        instance_types = ["t2.macro"]
-        desired_size = "1"
+        instance_types = ["t3.small"]
+        desired_size = "2"
         max_size = "5"
         min_size = "1"
     }

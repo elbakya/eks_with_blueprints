@@ -51,6 +51,7 @@ module "kubernetes_addons" {
   enable_argo_rollouts                  = true
 
   depends_on = [
-    module.eks_blueprints.managed_node_groups
+    module.eks_blueprints.managed_node_groups,
+    module.eks_blueprints
   ]
 }
